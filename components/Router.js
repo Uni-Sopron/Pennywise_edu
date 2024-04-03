@@ -43,6 +43,7 @@ const Router = () => {
           component={DashboardStack}
           options={{
             headerShown: false,
+            title: 'Dashboard',
             tabBarIcon: (color) => (
               <MaterialIcons name="account-balance" size={24} color="black" />
             ),
