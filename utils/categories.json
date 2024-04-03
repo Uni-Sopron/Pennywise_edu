@@ -1,0 +1,98 @@
+[
+  {
+    "label": "Salary/Wages",
+    "value": "salary",
+    "color": "Green",
+    "hex": "#00FF00"
+  },
+  {
+    "label": "Housing Expenses",
+    "value": "housing",
+    "color": "Coral",
+    "hex": "#FF6B6B"
+  },
+  {
+    "label": "Transportation",
+    "value": "transportation",
+    "color": "Teal",
+    "hex": "#008080"
+  },
+  {
+    "label": "Food and Groceries",
+    "value": "food",
+    "color": "Olive",
+    "hex": "#808000"
+  },
+  {
+    "label": "Health and Wellness",
+    "value": "health",
+    "color": "Lavender",
+    "hex": "#E6E6FA"
+  },
+  {
+    "label": "Debt Repayment",
+    "value": "debt",
+    "color": "Indigo",
+    "hex": "#4B0082"
+  },
+  {
+    "label": "Entertainment and Leisure",
+    "value": "entertainment",
+    "color": "Gold",
+    "hex": "#FFD700"
+  },
+  {
+    "label": "Personal Care",
+    "value": "hygiene",
+    "color": "Rose",
+    "hex": "#FF007F"
+  },
+  {
+    "label": "Education",
+    "value": "education",
+    "color": "Sky Blue",
+    "hex": "#87CEEB"
+  },
+  {
+    "label": "Freelancing/Consulting",
+    "value": "freelance",
+    "color": "Blue",
+    "hex": "#0000FF"
+  },
+  {
+    "label": "Investments",
+    "value": "investments",
+    "color": "Purple",
+    "hex": "#800080"
+  },
+  {
+    "label": "Side Hustles",
+    "value": "side_hustles",
+    "color": "Orange",
+    "hex": "#FFA500"
+  },
+  {
+    "label": "Rental Income",
+    "value": "rental_income",
+    "color": "Yellow",
+    "hex": "#FFFF00"
+  },
+  {
+    "label": "Business Profits",
+    "value": "business_profits",
+    "color": "Brown",
+    "hex": "#A52A2A"
+  },
+  {
+    "label": "Scholarships/Grants",
+    "value": "scholarships_grants",
+    "color": "Pink",
+    "hex": "#FFC0CB"
+  },
+  {
+    "label": "Gifts/Inheritance",
+    "value": "gifts_inheritance",
+    "color": "Red",
+    "hex": "#FF0000"
+  }
+]
