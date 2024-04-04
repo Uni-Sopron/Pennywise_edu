@@ -4,6 +4,7 @@ import RNPickerSelect from 'react-native-picker-select'
 import categories from '../utils/categories.json'
 import { useSession } from '../hooks/useSession'
 import { supabase } from '../utils/supabase'
+import { colorForCategory } from '../utils'
 
 const Select = ({ onPress, title, selected }) => {
   return (
@@ -125,7 +126,7 @@ const Modal = ({ navigation }) => {
         <Text style={{ fontSize: 30, marginLeft: 5 }}>HUF</Text>
       </View>
       <View style={{ flexDirection: 'row', marginTop: 10 }}>
-        {[0, 10, 15, 20].map((percent) => (
+        {[0, 10, 15, 20, 25].map((percent) => (
           <Select
             key={percent}
             title={`+${percent}%`}
@@ -197,7 +198,7 @@ const Modal = ({ navigation }) => {
       </View>
       <Pressable
         style={{
-          backgroundColor: 'blue',
+          backgroundColor: colorForCategory(category) || 'blue',
           marginTop: 30,
           paddingHorizontal: 10,
           paddingVertical: 10,

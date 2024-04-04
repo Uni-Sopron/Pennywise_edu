@@ -24,8 +24,8 @@ const Auth = () => {
   const signInWithEmail = async () => {
     setLoading(true)
     const { error } = await supabase.auth.signInWithPassword({
-      email: email,
-      password: password,
+      email,
+      password,
     })
 
     if (error) {
@@ -40,8 +40,8 @@ const Auth = () => {
       data: { session },
       error,
     } = await supabase.auth.signUp({
-      email: email,
-      password: password,
+      email,
+      password,
     })
 
     if (error) {
